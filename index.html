@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Muscle</title>
+    <!-- CSS and Bootstrap -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="content">
+    <nav class="navbar navbar-expand-xl bg-dark navbar-dark sticky">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="Logo">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navBar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Brands</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                    <img class="logo" src="images/fordLogo.png">
+                                    Ford
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                    <img class="logo" src="images/chevroletLogo.png">
+                                    Chevrolet
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                    <img class="logo" src="images/dodgeLogo.png">
+                                    Dodge
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                    <img class="logo" src="images/plymouthLogo.png">
+                                    Plymouth
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                    <img class="logo" src="images/pontiacLogo.png">
+                                    Pontiac
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#login">
+                            <a href="#" class="nav-item nav-link">Login</a>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#register">
+                            <a href="#" class="nav-item nav-link">Register</a>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <h3>Carrousel com hiperligações para os carros</h3>
+        <h4>Integrar video do youtube</h4>
+        <h6>Modals para o login e registo</h6> 
+        <p>-- Perguntar ao stor se posso só por a cena do google maps no about us prq no meu caso é uma beca inutil por isso nos carros xD.
+           -- Perguntar ao stor se posso não ter os videos do youtube na home page e só nas páginas dos carros 
+        </p>
+        <h6>Footer</h6>
+    </div>
+
+    <!-- MODALS -->
+    <div class="modal fade" id="login" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5">
+                        Login
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    Username <input type="text" name="#" width="200px" height="200 px">
+                    <br> <br>
+                    Password <input type="password" name="#" width="200px" height="200 px">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger"
+                        data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="register" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5">
+                        Login
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    Name <input type="text" name="#" width="200px" height="200 px">
+                    <br> <br>
+                    Email <input type="email" name="#" width="200px" height="200 px">
+                    <br> <br>
+                    Username <input type="text" name="#" width="200px" height="200 px">
+                    <br> <br>
+                    Password <input type="password" name="#" width="200px" height="200 px">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger"
+                        data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
