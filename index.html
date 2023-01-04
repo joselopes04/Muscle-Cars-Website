@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>American Muscle</title>
+    <title>American Muscle Cars</title>
+    <link rel="icon" type="image/x-icon" href="images/AmericanMuscle.png">
     <!-- CSS and Bootstrap -->
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -17,10 +18,10 @@
 </head>
 
 <body class="content">
-    <nav class="navbar navbar-expand-xl bg-dark navbar-dark sticky">
-        <div class="container">
+    <nav class="navbar navbar-expand-xl navbarBG navbar-dark sticky">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="Logo">
+                <img src="images/AmericanMuscle.png" width="60" height="60" alt="Logo">
             </a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navBar">
                 <span class="navbar-toggler-icon"></span>
@@ -32,34 +33,34 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Brands</a>
-                        <ul class="dropdown-menu dropdown-menu-dark">
+                        <ul class="dropdown-menu navbarBG">
                             <li class="nav-item">
                                 <a class="nav-link">
-                                    <img class="logo" src="images/fordLogo.png">
+                                    <img class="logo" src="images/logos/fordLogo.png">
                                     Ford
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link">
-                                    <img class="logo" src="images/chevroletLogo.png">
+                                    <img class="logo" src="images/logos/chevroletLogo.png">
                                     Chevrolet
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link">
-                                    <img class="logo" src="images/dodgeLogo.png">
+                                    <img class="logo" src="images/logos/dodgeLogo.png">
                                     Dodge
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link">
-                                    <img class="logo" src="images/plymouthLogo.png">
+                                    <img class="logo" src="images/logos/plymouthLogo.png">
                                     Plymouth
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link">
-                                    <img class="logo" src="images/pontiacLogo.png">
+                                    <img class="logo" src="images/logos/pontiacLogo.png">
                                     Pontiac
                                 </a>
                             </li>
@@ -85,12 +86,48 @@
         </div>
     </nav>
     <div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image active bg1">
+                    <div class="carousel-caption">
+                      <h5>Normal</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image bg2">
+                    <div class="carousel-caption">
+                      <h5>Normal</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image bg3">
+                    <div class="carousel-caption">
+                      <h5>Normal</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         <h3>Carrousel com hiperligações para os carros</h3>
         <h4>Integrar video do youtube</h4>
         <h6>Modals para o login e registo</h6> 
-        <p>-- Perguntar ao stor se posso só por a cena do google maps no about us prq no meu caso é uma beca inutil por isso nos carros xD.
-           -- Perguntar ao stor se posso não ter os videos do youtube na home page e só nas páginas dos carros 
-        </p>
         <h6>Footer</h6>
     </div>
 

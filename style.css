@@ -1,8 +1,31 @@
-.content{
-    background-color: aquamarine;
+.content {
+    background-color: gray;
 }
 
-.logo{
+.logo {
     height: 30px;
     width: 50px;
+}
+
+.navbarBG {
+    background: linear-gradient(to right, #3b3b6d 0%, #b32134 100%);
+}
+
+.carousel-image {
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    height: 90vh;
+}
+
+.bg1 {
+    background-image: url("images/cars/ford-mustang-shelby-gt500.jpg");
+}
+
+.bg2 {
+    background-image: url("images/cars/DODGE CHALLENGER.jpg");
+}
+
+.bg3 {
+    background-image: url("images/cars/CHEVROLET_CHEVELLE_MALIBU_SS_1970_104.jpg");
 }
