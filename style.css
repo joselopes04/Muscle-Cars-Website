@@ -2,6 +2,7 @@
     background-color: gray;
 }
 
+/* HEADDER */
 .logo {
     height: 30px;
     width: 50px;
@@ -11,21 +12,63 @@
     background: linear-gradient(to right, #3b3b6d 0%, #b32134 100%);
 }
 
+/* BODY */
+/* Carrousel */
 .carousel-image {
-    background-repeat: no-repeat;
-    background-size:cover ;
-    background-position: center;
     height: 90vh;
+    width: 100%;
+    object-fit: cover;
 }
 
-.bg1 {
-    background-image: url("images/cars/ford-mustang-shelby-gt500.jpg");
+@media only screen and (max-width: 800px) {
+    .carousel-image {
+        object-fit: fill;
+    }
+
 }
 
-.bg2 {
-    background-image: url("images/cars/DODGE CHALLENGER.jpg");
+.carousel-caption {
+    margin-bottom: 3vh;
+    display: flex;
+    justify-content: center;
 }
 
-.bg3 {
-    background-image: url("images/cars/CHEVROLET_CHEVELLE_MALIBU_SS_1970_104.jpg");
+.caption-content {
+    padding: 1%;
+    width: fit-content;
+    border-radius: 30px;
+    background-color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.btn-carrousel {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 16px;
+    background-color: #3b3b6d;
+    color: #fff;
+}
+
+.btn-carrousel:hover {
+    filter: brightness(0.5);
+    transition: 1s;
+}
+
+
+/* FOOTER */
+.fa-facebook {
+    color: #4267B2;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.fa-instagram{
+    border-radius: 6px;
+    padding: 4px;
+    color: #fff;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
 }
