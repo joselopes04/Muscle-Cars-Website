@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Muscle Cars</title>
+    <link rel="icon" type="image/x-icon" href="../images/AmericanMuscle.png">
+    <!-- CSS and Bootstrap -->
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <!--Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="content">
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-xl navbarBG navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../images/AmericanMuscle.png" width="60" height="60" alt="Logo">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navBar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navBar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown nav-item-active">
+                            <a class="nav-link text-white dropdown-toggle" data-bs-toggle="dropdown" href="#">Brands</a>
+                            <ul class="dropdown-menu navbarBG">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="ford.html">
+                                        <img class="logo" src="../images/logos/fordLogo.png">
+                                        Ford
+                                    </a>
+                                </li>
+                                <li class="nav-item nav-item-active">
+                                    <a class="nav-link text-white" href="chevrolet.html">
+                                        <img class="logo" src="../images/logos/chevroletLogo.png">
+                                        Chevrolet
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="dodge.html">
+                                        <img class="logo" src="../images/logos/dodgeLogo.png">
+                                        Dodge
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="plymouth.html">
+                                        <img class="logo" src="../images/logos/plymouthLogo.png">
+                                        Plymouth
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="pontiac.html">
+                                        <img class="logo" src="../images/logos/pontiacLogo.png">
+                                        Pontiac
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="../aboutUs.html">About Us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" data-bs-toggle="modal" data-bs-target="#login"
+                                data-backdrop="static" data-keyboard="false">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../registration.html" class="nav-link text-white">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <!-- Carrousel -->
+        <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="carousel-image" src="../images/cars/CHEVROLET_CHEVELLE_MALIBU_SS_1970_104.jpg"
+                        class="d-block w-100" alt="Chevelle Malibu SS 1970">
+                    <div class="carousel-caption">
+                        <div class="caption-content">
+                            <h5>Chevrolet</h5>
+                            <p>Chevelle Malibu SS 1970</p>
+                            <a type="button" class="btn-carrousel" href="#carouselChevelle">See more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-image"
+                        src="https://www.planetcarsz.com/assets/uploads/2018/12/CHEVROLET%20CAMARO%202019%2002.jpg"
+                        class="d-block w-100" alt="Camaro 2019">
+                    <div class="carousel-caption">
+                        <div class="caption-content">
+                            <h5>Chevrolet</h5>
+                            <p>Camaro 2019</p>
+                            <a type="button" class="btn-carrousel" href="#carouselCamaro">See more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-image"
+                        src="https://www.planetcarsz.com/assets/uploads/images/VEICULOS/C/CHEVROLET/1982_CHEVROLET_CORVETTE//CHEVROLET_CORVETTE_1982_01.jpg"
+                        class="d-block w-100" alt="Corvette 1982">
+                    <div class="carousel-caption">
+                        <div class="caption-content">
+                            <h5>Chevrolet</h5>
+                            <p>Corvette 1982</p>
+                            <a type="button" class="btn-carrousel" href="#carouselCorvette">See more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="d-flex flex-column align-items-center m-4">
+            <h2 class="text-white m-3">Promotional Video</h2>
+            <div class="ratio ratio-21x9">
+                <iframe src="https://www.youtube.com/embed/FMyCjKgCJpM" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="mt-4">
+                <h2 class="text-white">Our Chevrolet Cars</h2>
+                <div class="mx-5 mt-3">
+                    <h3 class="text-white">Chevrolet Chevelle Malibu SS 1970</h3>
+                    <ul class="text-white lead">
+                        <li>Engine: L78 396ci V8</li>
+                        <li>Horse Power: 375 hp</li>
+                        <li>Torque: 415 ft-lb</li>
+                        <li>0-60 MPH: 6.5 seconds</li>
+                    </ul>
+                    <p class="text-white lead">The 1970 Chevrolet Chevelle Malibu SS was a muscle car produced by
+                        Chevrolet as
+                        a high-performance version of the Chevelle Malibu. The SS (Super Sport) package was available on
+                        both the coupe and convertible body styles.
+                    </p>
+                    <p class="text-white lead">
+                        The 1970 Chevelle Malibu SS was available with a variety of engines, including the standard 300
+                        horsepower V8, the L65 327ci/250 horsepower and a optional 375 horsepower L78 396ci V8 engine.
+                        The L78 engine was rated at 375 horsepower and 415 lb-ft of torque.
+
+                    </p>
+                    <p class="text-white lead">
+                        The car had a 0-60 mph acceleration time of around 6.5 seconds.
+                        The 1970 Chevelle Malibu SS featured a sport-tuned suspension, front disc brakes, and a variety
+                        of cosmetic upgrades such as SS badges and emblems, special wheel covers, and a blacked-out
+                        grille.
+                    </p>
+                    <!-- Carrousel -->
+                    <div id="carouselChevelle" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselChevelle" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselChevelle" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselChevelle" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselChevelle" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselChevelle" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="carousel-image"
+                                    src="../images/cars/CHEVROLET_CHEVELLE_MALIBU_SS_1970_104.jpg" class="d-block w-100"
+                                    alt="Chevrolet Chevelle Malibu SS 1970">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="carousel-image"
+                                    src="https://www.planetcarsz.com/assets/uploads/images/VEICULOS/C/CHEVROLET/1970_CHEVROLET_CHEVELLE_MALIBU_SS//CHEVROLET_CHEVELLE_MALIBU_SS_1970_111.jpg"
+                                    class="d-block w-100" alt="Chevrolet Chevelle Malibu SS 1970">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="carousel-image"
+                                    src="https://www.planetcarsz.com/assets/uploads/images/VEICULOS/C/CHEVROLET/1970_CHEVROLET_CHEVELLE_MALIBU_SS//CHEVROLET_CHEVELLE_MALIBU_SS_1970_134.jpg"
+                                    class="d-block w-100" alt="Chevrolet Chevelle Malibu SS 1970">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="carousel-image"
+                                    src="https://www.planetcarsz.com/assets/uploads/images/VEICULOS/C/CHEVROLET/1970_CHEVROLET_CHEVELLE_MALIBU_SS//CHEVROLET_CHEVELLE_MALIBU_SS_1970_145.jpg"
+                                    class="d-block w-100" alt="Chevrolet Chevelle Malibu SS 1970">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="carousel-image"
+                                    src="https://www.planetcarsz.com/assets/uploads/images/VEICULOS/C/CHEVROLET/1970_CHEVROLET_CHEVELLE_MALIBU_SS//CHEVROLET_CHEVELLE_MALIBU_SS_1970_124.jpg"
+                                    class="d-block w-100" alt="Chevrolet Chevelle Malibu SS 1970">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselChevelle"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselChevelle"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="m-3 mt-5">
+                    <h3 class="text-white">Chevrolet Camaro 2019</h3>
+                    <ul class="text-white lead">
+                        <li>Engine: 6.2-liter V8</li>
+                        <li>Horse Power: 455 hp</li>
+                        <li>Torque: 455 lb-ft</li>
+                        <li>0-60 MPH: 4 seconds</li>
+                    </ul>
+                    <p class="text-white lead mb-2">The 2019 Chevrolet Camaro is a sports car produced by Chevrolet. It was
+                        available in a variety of trim levels, including the LS, LT, SS, and ZL1. The Camaro features a
+                        new design and new technology, including the latest version of the Chevrolet Infotainment
+                        System.
+                    </p>
+                    <p class="text-white lead mb-2">
+                        The 2019 Camaro SS was equipped with a 6.2-liter V8 engine that produced 455 horsepower and 455
+                        lb-ft of torque. It could accelerate from 0-60 mph in around 4 seconds. The SS model also
+                        featured a sport-tuned suspension, Brembo brakes, and a variety of cosmetic upgrades such as a
+                        unique front grille, rear spoiler, and 20-inch wheels.
+                    </p>
+                    <p class="text-white lead mb-2">
+                        In addition to the V8 engine, the 2019 Camaro also offered a 2.0-liter turbocharged
+                        four-cylinder engine and a 3.6-liter V6 engine.
+                    </p>
+                    <!-- Carrousel -->
+                    <div id="carouselCamaro" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselCamaro" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselCamaro" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselCamaro" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselCamaro" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="carouselCamaro" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="carousel-image"
+                                    src="https://www.planetcarsz.com/assets/uploads/2018/12/CHEVROLET%20CAMARO%202019%2002.jpg"
+                                    class="d-block w-100" alt="Chevrolet Camaro">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="carousel-image"
+                                    src="https://www.planetcarsz.com/assets/uploads/2018/12/CHEVROLET%20CAMARO%202019%2005.jpg"
+                                    class="d-block w-100" alt="Chevrolet Camaro">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="carousel-image"
+                                    src="https://www.planetcarsz.com/assets/uploads/2018/12/CHEVROLET%20CAMARO%202019%2009.jpg"
+                                    class="d-block w-100" alt="Chevrolet Camaro">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="carousel-image"
+                                    src="https://www.planetcarsz.com/assets/uploads/2018/12/CHEVROLET%20CAMARO%202019%2011.jpg"
+                                    class="d-block w-100" alt="Chevrolet Camaro">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="carousel-image"
+                                    src="https://www.planetcarsz.com/assets/uploads/2018/12/CHEVROLET%20CAMARO%202019%2031.jpg"
+                                    class="d-block w-100" alt="Chevrolet Camaro">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCamaro"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselCamaro"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="m-3 mt-5">
+                    <h3 class="text-white">Chevrolet Corvette 1982</h3>
+                    <ul class="text-white lead">
+                        <li>Engine: L83 5.7-liter V8</li>
+                        <li>Horse Power: 230 hp</li>
+                        <li>Torque: 300 lb-ft</li>
+                        <li>0-60 MPH: 6.3 seconds</li>
+                    </ul>
+                    <p class="text-white lead mb-2">The 1982 Chevrolet Corvette was a sports car produced by Chevrolet. It was the
+                        third generation of the Corvette, which was in production from 1968 to 1982.
+                    </p>
+                    <p class="text-white lead mb-2">
+                        The 1982 Corvette was available with two engine options: a base model with a 200 horsepower,
+                        5.7-liter V8 and a optional engine, a 230 horsepower, 4-barrel carbureted L83 5.7-liter V8. The
+                        L83 engine had torque of 300 lb-ft.
+
+                    </p>
+                    <p class="text-white lead mb-2">
+                        The 1982 Corvette had a 0-60 mph acceleration time of around 6.5 seconds for the base model and
+                        6.3 seconds for the L83 engine option.
+                    </p>
+                    <p class="text-white lead">
+                        The 1982 Corvette featured a new design that included a more aerodynamic shape, a new interior,
+                        and new technology such as electronic fuel injection and a digital instrument cluster. The car
+                        also had an improved suspension, which provided better handling and ride comfort.
+                    </p>
+                    <!-- Carrousel -->
+                    <div id="carouselCorvette" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselCorvette" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselCorvette" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselCorvette" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="carouselCorvette" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselCorvette" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="carousel-image"
+                                    src="https://www.planetcarsz.com/assets/uploads/images/VEICULOS/C/CHEVROLET/1982_CHEVROLET_CORVETTE//CHEVROLET_CORVETTE_1982_01.jpg"
+                                    class="d-block w-100" alt="Chevrolet Corvette">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="carousel-image"
+                                    src="https://www.planetcarsz.com/assets/uploads/images/VEICULOS/C/CHEVROLET/1982_CHEVROLET_CORVETTE//CHEVROLET_CORVETTE_1982_02.jpg"
+                                    class="d-block w-100" alt="Chevrolet Corvette">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="carousel-image"
+                                    src="https://www.planetcarsz.com/assets/uploads/images/VEICULOS/C/CHEVROLET/1982_CHEVROLET_CORVETTE//CHEVROLET_CORVETTE_1982_81.jpg"
+                                    class="d-block w-100" alt="Chevrolet Corvette">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="carousel-image"
+                                    src="https://www.planetcarsz.com/assets/uploads/images/VEICULOS/C/CHEVROLET/1982_CHEVROLET_CORVETTE//CHEVROLET_CORVETTE_1982_82.jpg"
+                                    class="d-block w-100" alt="Chevrolet Corvette">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="carousel-image"
+                                    src="https://www.planetcarsz.com/assets/uploads/images/VEICULOS/C/CHEVROLET/1982_CHEVROLET_CORVETTE//CHEVROLET_CORVETTE_1982_67.jpg"
+                                    class="d-block w-100" alt="Chevrolet Corvette">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCorvette"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselCorvette"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                    <h4 class="mt-4 text-white">Chevrolet HQ</h4>
+                    <div class="mt-3 ratio ratio-21x9">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d226016.07348345834!2d-83.14026926835857!3d42.35824784036013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824ca0110cb1d75%3A0x5776864e35b9c4d2!2sDetroit%2C%20MI%2C%20EUA!5e0!3m2!1spt-PT!2spt!4v1674317667244!5m2!1spt-PT!2spt"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="navbarBG py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <p class="my-2 ml-3 text-white">&copy; José Lopes 2023 | All Rights Reserved</p>
+                </div>
+                <div class="col-md-5">
+                    <p class="my-2 ml-3 text-white">Power your freedom with our oil-burning muscle.⛽</p>
+                </div>
+                <div class="col-md-2">
+                    <ul class="list-inline my-2">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-xl"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter fa-xl"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com" target="_blank"><i
+                                    class="fab fa-instagram fa-l"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </footer>
+
+    <!-- MODALS -->
+    <div class="modal fade" id="login" tabindex="-1" data-bs-keyboard="false" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content text-white">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5">
+                        Login
+                    </h1>
+                    <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <label>Username</label>
+                    <input class="form-input" type="text" name="#" required>
+                    <br> <br>
+                    <label>Password</label>
+                    <input class="form-input" type="password" name="#" required>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn btn-success">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

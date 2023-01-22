@@ -21,203 +21,254 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="content">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-xl navbarBG navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="images/AmericanMuscle.png" width="60" height="60" alt="Logo">
-            </a>
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navBar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navBar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link text-white dropdown-toggle" data-bs-toggle="dropdown" href="#">Brands</a>
-                        <ul class="dropdown-menu navbarBG">
-                            <li class="nav-item">
-                                <a class="nav-link text-white">
-                                    <img class="logo" src="images/logos/fordLogo.png">
-                                    Ford
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white">
-                                    <img class="logo" src="images/logos/chevroletLogo.png">
-                                    Chevrolet
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white">
-                                    <img class="logo" src="images/logos/dodgeLogo.png">
-                                    Dodge
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white">
-                                    <img class="logo" src="images/logos/plymouthLogo.png">
-                                    Plymouth
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white">
-                                    <img class="logo" src="images/logos/pontiacLogo.png">
-                                    Pontiac
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">About Us</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a data-bs-toggle="modal" data-bs-target="#login" class="nav-link text-white">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a data-bs-toggle="modal" data-bs-target="#register" class="nav-link text-white">Register</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div>
-        <!-- Carrousel -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="carousel-image" src="images/cars/ford-mustang-shelby-gt500.jpg" class="d-block w-100"
-                        alt="...">
-                    <div class="carousel-caption">
-                        <div class="caption-content">
-                            <h5>Ford</h5>
-                            <p>Mustang Shelby GT-500</p>
-                            <button type="button" class="btn-carrousel">See more</button>
+<body>
+    <div class="content">
+        <div class="section">
+            <header>
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-xl navbarBG navbar-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="images/AmericanMuscle.png" width="60" height="60" alt="Logo">
+                        </a>
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navBar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navBar">
+                            <ul class="navbar-nav">
+                                <li class="nav-item nav-item-active">
+                                    <a class="nav-link text-white" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link text-white dropdown-toggle" data-bs-toggle="dropdown"
+                                        href="#">Brands</a>
+                                    <ul class="dropdown-menu navbarBG">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white" href="cars/ford.html">
+                                                <img class="logo" src="images/logos/fordLogo.png">
+                                                Ford
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white" href="cars/chevrolet.html">
+                                                <img class="logo" src="images/logos/chevroletLogo.png">
+                                                Chevrolet
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white" href="cars/dodge.html">
+                                                <img class="logo" src="images/logos/dodgeLogo.png">
+                                                Dodge
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white" href="cars/plymouth.html">
+                                                <img class="logo" src="images/logos/plymouthLogo.png">
+                                                Plymouth
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white" href="cars/pontiac.html">
+                                                <img class="logo" src="images/logos/pontiacLogo.png">
+                                                Pontiac
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="aboutUs.html">About Us</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" data-bs-toggle="modal" data-bs-target="#login"
+                                        data-backdrop="static" data-keyboard="false">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="registration.html" class="nav-link text-white">Register</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="carousel-image" src="images/cars/CHEVROLET_CHEVELLE_MALIBU_SS_1970_104.jpg"
-                        class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <div class="caption-content">
-                            <h5>Chevrolet</h5>
-                            <p>Chevelle Malibu SS 1970</p>
-                            <button type="button" class="btn-carrousel">See more</button>
+                </nav>
+            </header>
+            <div>
+                <!-- Carrousel -->
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="carousel-image" src="images/cars/ford/ford-mustang-shelby-gt500.jpg"
+                                class="d-block w-100" alt="Mustang Shelby GT-500">
+                            <div class="carousel-caption">
+                                <div class="caption-content">
+                                    <h5>Ford</h5>
+                                    <p>Mustang Shelby GT-500</p>
+                                    <a type="button" class="btn-carrousel" href="cars/ford.html#carouselGT500">See
+                                        more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="carousel-image" src="images/cars/CHEVROLET_CHEVELLE_MALIBU_SS_1970_104.jpg"
+                                class="d-block w-100" alt="Chevelle Malibu SS 1970">
+                            <div class="carousel-caption">
+                                <div class="caption-content">
+                                    <h5>Chevrolet</h5>
+                                    <p>Chevelle Malibu SS 1970</p>
+                                    <a type="button" class="btn-carrousel"
+                                        href="cars/chevrolet.html#carouselChevelle">See
+                                        more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="carousel-image" src="images/cars/DODGE CHALLENGER.jpg" class="d-block w-100"
+                                alt="Challanger SRT Hellcat">
+                            <div class="carousel-caption">
+                                <div class="caption-content">
+                                    <h5>Dodge</h5>
+                                    <p>Challanger SRT Hellcat</p>
+                                    <a type="button" class="btn-carrousel" href="cars/dodge.html #carouselHellcat">See more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="carousel-image" src="images/cars/PLYMOUTH_BARRACUDA_1972_7.jpg"
+                                class="d-block w-100" alt="Barracuda">
+                            <div class="carousel-caption">
+                                <div class="caption-content">
+                                    <h5>Plymouth</h5>
+                                    <p>Barracuda</p>
+                                    <a type="button" class="btn-carrousel" href="cars\plymouth.html#carouselBarracuda">See more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="carousel-image" src="images/cars/PONTIAC FIREBIRD CUSTOM 1967 02.jpg"
+                                class="d-block w-100" alt="Firebird">
+                            <div class="carousel-caption">
+                                <div class="caption-content">
+                                    <h5>Pontiac</h5>
+                                    <p>Firebird</p>
+                                    <a type="button" class="btn-carrousel" href="cars/pontiac.html#carouselFirebird">See more</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="carousel-image" src="images/cars/DODGE CHALLENGER.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <div class="caption-content">
-                            <h5>Dodge</h5>
-                            <p>Challanger SRT Hellcat</p>
-                            <button type="button" class="btn-carrousel">See more</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        <h3>Carrousel com hiperligações para os carros</h3>
-        <h4>Integrar video do youtube</h4>
-        <h6>Modals para o login e registo</h6>
-        <h6>Footer</h6>
-    </div>
-    <!-- Footer -->
-    <footer class="navbarBG py-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-10">
-                    <p class="my-2 ml-3 text-white">&copy; José Lopes 2023 | All Rights Reserved</p>
-                </div>
-                <div class="col-sm-2">
-                    <ul class="list-inline my-2">
-                        <li class="list-inline-item">
-                            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-xl"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter fa-xl"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-l"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-    </footer>
-
-
-
-
-
-
-    <!-- MODALS -->
-    <div class="modal fade" id="login" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5">
-                        Login
-                    </h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body">
-                    Username <input type="text" name="#" width="200px" height="200 px">
-                    <br> <br>
-                    Password <input type="password" name="#" width="200px" height="200 px">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-success">Login</button>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" id="register" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5">
-                        Login
-                    </h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        <div class="section">
+            <div class="d-flex flex-column align-items-center mt-4 mx-5">
+                <h1 class="text-white">Muscle car definition</h1>
+                <p class="text-white lead mt-2 mb-2">
+                    A muscle car is a type of <b>American-made car</b> that is characterized by a powerful engine,
+                    typically
+                    a V8,
+                    and a sporty or <b>aggressive appearance</b>. Muscle cars were popular in the 1960s and 1970s, and
+                    they
+                    are
+                    often associated with drag racing and high-performance driving.
+
+                <p class="text-white lead mb-2">
+                    Muscle cars are typically two-door coupes with a <b>large engine</b>, that produces a
+                    significant amount of horsepower. They often have a long hood, short deck, and a wide stance. They
+                    are
+                    also known for their <b>loud engines</b> and high-performance exhaust systems.
+                </p>
+                <p class="text-white lead mb-2"> Muscle cars are not only popular for their performance but also for
+                    their
+                    aesthetic appeal. They are
+                    considered as classic American car culture and are often used in movies and TV shows as a symbol of
+                    <b>rebellion</b> and <b>freedom</b>.
+                </p>
+                <p class="text-white lead"> Please note that, Muscle cars are not for fuel efficiency and not for daily
+                    commute, They are designed
+                    for short distance <b>high-performance driving</b> and typically have poor fuel economy.</p>
+
+                <img class="car-image" src="images/outros/2022-Dodge-Challenger-02.jpg">
+            </div>
+        </div>
+        <div class="section">
+            <div class="d-flex flex-column align-items-center mx-5 mb-2">
+                <h2 class="text-white mt-2">Video explaining the concept</h2>
+                <div class="ratio ratio-21x9">
+                    <iframe src="https://www.youtube.com/embed/oqdmfiJ2dnc" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
                 </div>
-                <div class="modal-body">
-                    Name <input type="text" name="#" width="200px" height="200 px">
-                    <br> <br>
-                    Email <input type="email" name="#" width="200px" height="200 px">
-                    <br> <br>
-                    Username <input type="text" name="#" width="200px" height="200 px">
-                    <br> <br>
-                    Password <input type="password" name="#" width="200px" height="200 px">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-success">Register</button>
+            </div>
+            <!-- Footer -->
+            <footer class="navbarBG py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <p class="my-2 ml-3 text-white">&copy; José Lopes 2023 | All Rights Reserved</p>
+                        </div>
+                        <div class="col-md-5">
+                            <p class="my-2 ml-3 text-white">Power your freedom with our oil-burning muscle.⛽</p>
+                        </div>
+                        <div class="col-md-2">
+                            <ul class="list-inline my-2">
+                                <li class="list-inline-item">
+                                    <a href="https://www.facebook.com" target="_blank"><i
+                                            class="fab fa-facebook fa-xl"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://twitter.com" target="_blank"><i
+                                            class="fab fa-twitter fa-xl"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.instagram.com" target="_blank"><i
+                                            class="fab fa-instagram fa-l"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            </footer>
+        </div>
+        <!-- MODALS -->
+        <div class="modal fade" id="login" tabindex="-1" data-bs-keyboard="false" data-bs-backdrop="static">
+            <div class="modal-dialog">
+                <div class="modal-content text-white">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5">
+                            Login
+                        </h1>
+                        <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <label>Username</label>
+                        <input class="form-input" type="text" name="#" required>
+                        <br> <br>
+                        <label>Password</label>
+                        <input class="form-input" type="password" name="#" required>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="button" class="btn btn-success">Login</button>
+                    </div>
                 </div>
             </div>
         </div>
