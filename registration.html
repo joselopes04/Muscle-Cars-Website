@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>American Muscle Cars</title>
     <link rel="icon" type="image/x-icon" href="images/AmericanMuscle.png">
-    <!-- CSS and Bootstrap -->
+    <!-- CSS, JavaScript Bootstrap -->
+    <script src="main.js"></script>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -73,7 +74,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">About Us</a>
+                            <a class="nav-link text-white" href="aboutUs.html">About Us</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav ms-auto">
@@ -89,34 +90,38 @@
             </div>
         </nav>
     </header>
-    <h1 class="text-white d-flex justify-content-center mt-5">Register</h1>
-    <div>
-        <form class="all-page-form text-white">
-            <label>Name</label>
-            <input class="form-input" type="text" name="#" pattern="[A-Za-z]{3,20}" required>
-            <br> <br>
-            <label>Email</label>
-            <input class="form-input" type="email" name="#" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" required>
-            <br> <br>
-            <label>Username</label>
-            <input class="form-input" type="text" name="#" pattern="[A-Za-z0-9]{6,20}" required>
-            <br> <br>
-            <label>Password</label>
-            <input class="form-input" type="password" name="#" pattern="(?=.*[a-z])(?=.*\d)[a-zA-Z\d\w\W]{5,15}"
-                required>
-            <div class="form-check mt-3">
-                <input class="form-check-input" type="checkbox" value="" id="" required>
-                <label class="form-check-label">
-                    I agree with terms and conditions.
-                </label>
-                <div class="d-flex justify-content-center mt-5">
-                    <button type="submit" class="btn btn-success">Register</button>
-                </div>
-        </form>
+    <h1 class="text-white d-flex justify-content-center mt-3">Register</h1>
+    <form class="all-page-form text-white mb-5">
+        <label>Name</label>
+        <input class="form-input" id="nameInput" type="text" pattern="[A-Za-z]{3,20}" required>
+        <div class="error text-danger" id="nameError"></div>
+        <br>
+        <label>Email</label>
+        <input class="form-input" id="emailInput" type="email" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" required>
+        <div class="error text-danger" id="emailError"></div>
+        <br>
+        <label>Username</label>
+        <input class="form-input" id="usernameInput" type="text" pattern="[A-Za-z0-9]{6,20}" required>
+        <div class="error text-danger" id="usernameError"></div>
+        <br>
+        <label>Password</label>
+        <input class="form-input" id="passwordInput" type="password" pattern="(?=.*[a-z])(?=.*\d)[a-zA-Z\d\w\W]{5,15}" required>
+        <div class="error text-danger" id="passwordError"></div>
+        <div class="form-check mt-3">
+            <input class="form-check-input" id="checkboxInput" type="checkbox" value="" required>
+            <label class="form-check-label">
+                I agree with terms and conditions.
+            </label>
+            <div class="error text-danger" id="checkboxError"></div>
+            <div class="d-flex justify-content-center mt-1 mb-5">
+                <button type="submit" class="btn btn-success" onclick="validateForm()">Register</button>
+            </div>
+    </form>
     </div>
 
+
     <!-- Footer -->
-    <footer class="navbarBG py-3">
+    <footer class="navbarBG py-3 mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">

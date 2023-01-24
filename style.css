@@ -7,36 +7,34 @@
       background: linear-gradient(to top, #282828, #484848);
       height: 100%;
       /* CSS Smooth Scroll */
-      overflow-y: scroll;
+      overflow-y: auto;
       scroll-behavior: smooth;
       scroll-snap-type: y mandatory;
   }
-
 
   @media only screen and (min-width: 1200px) {
       .section {
           scroll-snap-align: center;
       }
-
   }
 
-.top-button{
-    background-color: #000;
-    position: fixed;
-    bottom: 16px;
-    right: 32px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    text-decoration: none;
-    z-index: 1;
-    opacity: 0;
-    transition: all .4s;
-}
+  .top-button {
+      background-color: #000;
+      position: fixed;
+      bottom: 16px;
+      right: 32px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-decoration: none;
+      z-index: 1;
+      opacity: 0;
+      transition: all .4s;
+  }
 
   /* HEADDER */
   .logo {
@@ -105,9 +103,9 @@
 
   /* FORMS */
   .all-page-form {
+      min-height: 62.5vh;
       padding-top: 5vh;
       margin: 0 10vw 0;
-      height: 64.8vh;
   }
 
   /* MODALS */
