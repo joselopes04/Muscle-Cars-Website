@@ -1,31 +1,40 @@
 # Muscle-Cars-Website
  
-<h3 align="center">🏗️Under development🏗️</h3>
 <p align="center"><img width=10% src=https://github.com/joselopes04/Muscle-Cars-Website/blob/main/images/AmericanMuscle.png></p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-American Muscle Cars is an website dedicated to show Muscle cars.
+American Muscle Cars is an website dedicated to show the best Muscle cars.
 
 ## Table of content
-- [Licence](#license)
 - [Link](#link)
+- [Licence](#license)
+- [Description](#description)
 - [Functionalities](#functionalities)
 - [Built with](#built-with)
-- [Final Notes](#final-notes)
 - [Authors](#authors)
 
-## License
-Coming soon
-
 ## Link
-Not availabale yet! ⚠️ <br>
+Click on the link bellow to view the site. <br>
+https://american-muscle-cars-site.000webhostapp.com/index.html <br>
+
+## License
+You can use my code under the MIT license
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/joselopes04/Muscle-Cars-Website/blob/main/LICENCE)<br>
+
+## Description
+This only a template, does not have backend. The login and register are for aesthetic purposes only. 
 
 ## Functionalities
 - Navbar 
   - Logo
   - Links
-  - Login and register modals
+  - Register modal
+    - Validation with JavaScript
 - Content
-  - Carrousel.
+  - Carrousel
+  - Iframes with content from youtube nad google maps 
+  - Button to go to the top
+- Login Page
+- About Us Page
 - Footer
   - Copyright 
   - Links to social media
@@ -36,6 +45,7 @@ Not availabale yet! ⚠️ <br>
 <a href="https://html5.org">HTML</a> - Markup  Language<br>
 <a href="https://www.css3.com">CSS</a> - Styles<br>
 <a href="https://getbootstrap.com">Bootstrap</a> - Framework<br>
+<a href="https://fontawesome.com">Font Awesome</a> - Icons<br>
 <a href="https://www.planetcarsz.com">Planet Carz</a> - Images Source<br>
 <a href="https://www.adobe.com/pt/products/photoshop.html">Photoshop</a> - Image Editor
 
