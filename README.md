@@ -27,13 +27,13 @@ This only a template, does not have backend. The login and register are for aest
 - Navbar 
   - Logo
   - Links
-  - Register modal
-    - Validation with JavaScript
+  - Login modal
 - Content
   - Carrousel
   - Iframes with content from youtube nad google maps 
   - Button to go to the top
-- Login Page
+- Register Page
+  - Validation with JavaScript
 - About Us Page
 - Footer
   - Copyright 
