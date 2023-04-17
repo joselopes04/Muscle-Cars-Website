@@ -30,7 +30,7 @@ This only a template, does not have backend. The login and register are for aest
   - Login modal
 - Content
   - Carrousel
-  - Iframes with content from youtube nad google maps 
+  - Iframes with content from youtube and google maps 
   - Button to go to the top
 - Register Page
   - Validation with JavaScript
